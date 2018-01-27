@@ -1,0 +1,46 @@
+*{
+
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.brand{
+
+	font-family: 'Open Sans Condensed', sans-serif !important;
+	font-size: 30px !important;
+}
+
+img{
+    
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.centered {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.ml{
+
+    margin-right: -50px !important;
+}
+
+.mr{
+
+    margin-left: -50px !important;
+}
+
+.mu{
+
+    margin-top: -50px !important;
+}
